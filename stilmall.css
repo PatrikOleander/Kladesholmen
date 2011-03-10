@@ -1,0 +1,254 @@
+html {font-size:125%;}
+
+body {
+	font-size:50%;
+	background-image:url(bilder/bakgrund.jpg);
+	background-repeat:repeat-y;
+	}
+
+* 			{margin: 0; padding: 0;}
+
+#logga		{
+			width:800px;
+			height:120px;
+			background-color:green;
+			background-image:url(bilder/logga.jpg)
+			
+			/*-moz-border-radius: 0px 0px 15px 15px;/*Runda hörn, för firefox*/
+			/*border-radius: 0px 0px 15px 15px; /*Runda hörn för alla andra läsare*/
+			}
+			
+#huvudmeny	{
+			width:796px;
+			height:35px;
+			background-color:white;
+			border-top-width:2px;
+			border-left-width:2px;
+			border-bottom-width:0px;
+			border-right-width:2px;
+			border-style:solid;
+			border-color:#000000;
+			/*padding: 15px 0px 0px 0px;*/
+			}
+
+#undermeny	{
+			width:796px;
+			height:22px;
+			background-color:#3d88f8;
+			border-top-width:0px;
+			border-left-width:2px;
+			border-bottom-width:2px;
+			border-right-width:2px;
+			border-style:solid;
+			/*padding: 8px 0px 0px 0px;*/
+			}
+			
+#innehåll	{
+			width:756px;
+			height:700px;
+			background-color:white;
+			border-left:2px solid black;
+			border-right:2px solid black;
+			padding:20px;
+			}
+			
+#innehållBildarkiv	{
+			width:756px;
+			height:755px;
+			background-color:white;
+			border-left:2px solid black;
+			border-right:2px solid black;
+			padding:20px;
+			}
+			
+#sidfot		{
+			width:796px;
+			height:40px;
+			background-color:#3d88f8;
+			-moz-border-radius: 0px 0px 15px 15px;/*Runda hörn, för firefox*/
+			border-radius: 0px 0px 15px 15px; /*Runda hörn för alla andra läsare*/
+			border:2px solid black;
+	
+			}
+			
+			/*Boxar för kontakt.html*/
+#kontaktboxInfo
+			{
+			width:600px;
+			height:80px;
+			/*background-color:green;*/
+			padding-top:20px;
+			background-color:#3d88f8;
+			padding:20px;
+			-moz-border-radius: 15px 15px 0px 0px;/*Runda hörn, för firefox*/
+			border-radius: 15px 15px 0px 0px; /*Runda hörn för alla andra läsare*/
+			color:white;
+			border-bottom:1px dashed black;
+			}
+
+#kontaktbox1	{
+			width:260px;
+			height:150px;
+			/*background-color:red;*/
+			float:left;
+			background-color:#3d88f8;
+			padding:20px;
+			}
+
+#kontaktbox2	{
+			width:300px;
+			height:150px;
+			/*background-color:yellow;*/
+			float:left;
+			background-color:#3d88f8;
+			padding:20px;
+	
+			}
+#kontaktboxInmatning
+			{
+			width:600px;
+			height:300px;
+			/*background-color:green;*/
+			float:left;
+			background-color:#3d88f8;
+			padding:20px;
+			-moz-border-radius: 0px 0px 15px 15px;/*Runda hörn, för firefox*/
+			border-radius: 0px 0px 15px 15px; /*Runda hörn för alla andra läsare*/
+			}
+			/*Slut på boxar för kontakter.html*/
+			
+#StartsidanBild	{
+				width:453px;
+				height:604px;
+				background-color:black;
+				
+				}
+
+#container	
+			{
+			width:800px;
+			height:980px;
+			margin:auto;
+			}
+			
+a.huvudmeny		{
+			display:block;
+			float:left;
+			/*margin:8px;*/
+			text-decoration:none;
+			font-size:18px;
+			color:black;
+			padding:7px;
+			border-left:1px dashed black;
+			border-right:1px dashed black;
+			}
+			
+a.huvudmenyStartB		{
+			display:block;
+			float:left;
+			/*margin:8px;*/
+			text-decoration:none;
+			font-size:18px;
+			color:black;
+			padding:7px;
+			border-right:1px dashed black;
+			}
+			
+			
+a.huvudmenyStart		{
+			display:block;
+			float:left;
+			text-decoration:none;
+			font-size:18px;
+			color:white;
+			background-color:#3d88f8;
+			width:82px;
+			height:21px;
+			padding:7px;
+			}
+			
+a.huvudmenOmkladesholmen
+
+			{
+			display:block;
+			float:left;
+			text-decoration:none;
+			font-size:18px;
+			color:white;
+			background-color:#3d88f8;
+			width:150px;
+			height:21px;
+			padding:7px;
+			}
+			
+a.huvudmenyBildarkiv		{
+			display:block;
+			float:left;
+			text-decoration:none;
+			font-size:18px;
+			color:white;
+			background-color:#3d88f8;
+			width:70px;
+			height:21px;
+			padding:7px;
+			}
+			
+a.huvudmenyHittahit		{
+			display:block;
+			float:left;
+			text-decoration:none;
+			font-size:18px;
+			color:white;
+			background-color:#3d88f8;
+			width:63px;
+			height:21px;
+			padding:7px;
+			}
+			
+a.huvudmenyKontakt		{
+			display:block;
+			float:left;
+			text-decoration:none;
+			font-size:18px;
+			color:white;
+			background-color:#3d88f8;
+			width:63px;
+			height:21px;
+			padding:7px;
+			}
+			
+a.undermeny		{
+			display:block;
+			float:left;
+			margin:6px;
+			text-decoration:none;
+			font-size:16px;
+			color:white;
+			}
+			
+p.undermeny	{
+			font-size:14px;
+			color:white;
+			margin:0px;
+			}	
+
+p.kontakt	{
+			font-size:18px;
+			color:white;
+			margin:0px;
+			}
+			
+.bilder		{
+			width:200px;
+			height:200px;
+			background-color:black;
+			float:left;
+			margin:20px;
+	
+			}
+			
+p			{
+			font-size:16px;
+			margin:0px 0px 20px 0px;
+			}
+
