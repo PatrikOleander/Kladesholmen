@@ -6,13 +6,31 @@
 		 <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
  		<meta http-equiv="Content-Language" content="sv" />
 		<link href="stilmall.css" rel="stylesheet" type="text/css">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+		<script src="https://github.com/andyet/ICanHaz.js/raw/master/ICanHaz.min.js" type="text/javascript" charset="utf-8"></script>
+		
+		<script type="text/javascript" charset="utf-8">
+      $(function() {
+		    $("a#about").click(function() {
+		      var template = ich.template({});
+		      $("#undermeny").html(template);
+          return false;
+		    });
+	    });
+		</script>
+		
+		<script id="template" type="text/html">
+      <a class="undermeny" href="kladesholmenidag.html">Klädesholmen idag</a><a class="undermeny" href="historia.html">Historia</a>
+    </script>
+    
 	</head>
 	<body>
 			<div id="container">
 			<div id="logga"></div>
 			<div id="huvudmeny">
+				
 				<a class="huvudmenyStart" href="index.html">Startsidan</a>
-				<a class="huvudmeny" href="omkladesholmen.html">Om Klädesholmen</a>
+				<a id="about" class="huvudmeny" href="omkladesholmen.html">Om Klädesholmen</a>
 				<a class="huvudmeny" href="Bildarkiv.html">Bildarkiv</a>
 				<a class="huvudmeny" href="Hittahit.html">Hitta hit</a>
 				<a class="huvudmeny" href="Kontakt.html">Kontakt</a>
