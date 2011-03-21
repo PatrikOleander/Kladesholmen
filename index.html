@@ -13,7 +13,11 @@
       $(function() {
 		    $("a#about").click(function() {
 		      var template = ich.template({});
+		      
 		      $("#undermeny").html(template);
+          $("a.current").removeClass("current");
+          $(this).addClass("current");
+          
           return false;
 		    });
 	    });
@@ -29,11 +33,11 @@
 			<div id="logga"></div>
 			<div id="huvudmeny">
 				
-				<a class="huvudmenyStart" href="index.html">Startsidan</a>
-				<a id="about" class="huvudmeny" href="omkladesholmen.html">Om Klädesholmen</a>
-				<a class="huvudmeny" href="Bildarkiv.html">Bildarkiv</a>
-				<a class="huvudmeny" href="Hittahit.html">Hitta hit</a>
-				<a class="huvudmeny" href="Kontakt.html">Kontakt</a>
+				<a class="left item current" href="index.html">Startsidan</a>
+				<a class="middle item" id="about" href="omkladesholmen.html">Om Klädesholmen</a>
+				<a class="middle item"  href="Bildarkiv.html">Bildarkiv</a>
+				<a class="middle item"  href="Hittahit.html">Hitta hit</a>
+				<a class="middle item"  href="Kontakt.html">Kontakt</a>
 			
 			</div>
 			<div id="undermeny"></div>
