@@ -1,12 +1,13 @@
 html {font-size:125%;}
 
 body {
-	font-size:50%;
-	background-image:url(bilder/bakgrund.jpg);
-	background-repeat:repeat-y;
+		font-size:50%;
+		background-image:url(bilder/bakgrund.jpg);
+		background-repeat:repeat-y;
+		margin:auto;
 	}
 
-* 			{margin: 0; padding: 0;}
+* 			{margin: 0px; padding: 0px;}
 
 #logga		{
 			width:800px;
@@ -45,11 +46,25 @@ body {
 			
 #innehåll	{
 			width:756px;
-			height:700px;
+			height:720px;
 			background-color:white;
 			border-left:2px solid black;
 			border-right:2px solid black;
 			padding:20px;
+			margin-bottom:0px;
+			overflow:auto;
+			}
+			
+#innehållHistoria	
+			{
+			width:756px;
+			height:950px;
+			background-color:white;
+			border-left:2px solid black;
+			border-right:2px solid black;
+			padding:20px;
+			margin-top:0px;
+			overflow:auto;
 			}
 			
 #innehållBildarkiv	{
@@ -116,13 +131,16 @@ body {
 			border-radius: 0px 0px 15px 15px; /*Runda hörn för alla andra läsare*/
 			}
 			/*Slut på boxar för kontakter.html*/
+
+
 			
 #StartsidanBild	{
 				width:453px;
 				height:604px;
 				background-color:black;
-				
 				}
+
+
 
 #container	
 			{
@@ -130,11 +148,11 @@ body {
 			height:980px;
 			margin:auto;
 			}
-			
-a.huvudmeny		{
+						
+
+a.huvudmeny	{
 			display:block;
 			float:left;
-			/*margin:8px;*/
 			text-decoration:none;
 			font-size:18px;
 			color:black;
@@ -220,30 +238,25 @@ a.huvudmenyKontakt		{
 a.undermeny		{
 			display:block;
 			float:left;
-			margin:6px;
+			height:15px;
+			margin:4px 5px 0px 2px;
 			text-decoration:none;
 			font-size:16px;
 			color:white;
+			border-right:1px dashed white;
+			padding:0px 7px 0px 0px;
 			}
 			
-p.undermeny	{
-			font-size:14px;
-			color:white;
-			margin:0px;
-			}	
 
-p.kontakt	{
+p.vit	{
 			font-size:18px;
 			color:white;
-			margin:0px;
+			margin:10px 0px 0px 0px ;
 			}
 			
 .bilder		{
-			width:200px;
-			height:200px;
-			background-color:black;
 			float:left;
-			margin:20px;
+			margin:0px 20px 20px 0px;
 	
 			}
 			
@@ -251,4 +264,17 @@ p			{
 			font-size:16px;
 			margin:0px 0px 20px 0px;
 			}
-
+			
+h1			{
+			text-align:center;
+			margin-bottom:20px;
+			}
+#Hittahitbox
+			{
+			width:430px;
+			height:450px;
+			background-color:#3d88f8;
+			-moz-border-radius: 15px 15px 15px 15px;
+			border-radius: 15px 15px 15px 15px;
+			padding:30px;
+			}

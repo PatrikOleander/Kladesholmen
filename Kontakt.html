@@ -7,8 +7,8 @@
  		<meta http-equiv="Content-Language" content="sv" />
 		<link href="stilmall.css" rel="stylesheet" type="text/css">
 	</head>
-	<body id="container">
-		<div>
+	<body>
+		<div id="container">
 			<div id="logga"></div>
 			<div id="huvudmeny">
 				<a class="huvudmenyStartB" href="index.html">Startsidan</a>
@@ -20,25 +20,26 @@
 			</div>
 			<div id="undermeny"></div>
 			<div id="innehåll">
-				<div id="kontaktboxInfo">
+				<div id="kontaktboxInfo"><p>Här kan du kontakta Webmaster genom att fylla i formuläret nedan.</p>
 				</div>
 				<div id="kontaktbox1">
-					<p class="kontakt">Namn:</p></br><input type="text" size="25">*</br>
-					<p class="kontakt">Mobilnummer:</p></br><input type="text" size="25">*<br/>
+					<form method="post" action="mailto:c10patol@student.his.se?subject=Ditt meddelande" enctype="text/plain"> 
+					<p class="vit">Förnamn:</p></br><input type="text" size="25" id="förnamn">*</br>
+					<p class="vit">Efternamn:</p></br><input type="text" size="25" id="efternamn">*<br/>
 				
 				
 				
 				</div>
 				<div id="kontaktbox2">
-					<p class="kontakt">Mobilnummer:</p></br><input type="text" size="25">*</br>
-					<p class="kontakt">Mailadress:</p></br><input type="text" size="25">*
+					<p class="vit">Mobilnummer:</p></br><input type="text" size="25" id="mobilnummer">*</br>
+					<p class="vit">Mailadress:</p></br><input type="text" size="25" id="mailadress">*
 				</div>
 				<div id="kontaktboxInmatning">
-					<p class="kontakt">Ämne:</br></p><input type="text" size="25">*</br>
-					<p class="kontakt">Meddelande:</p></br>
-					<textarea rows="12" cols="63"></textarea></p>
-					<a href="mailto:c10patol@student.his.se"><input type="submit" value="Skicka"><a/>
-				
+					<p class="vit">Ämne:</br></p><input type="text" size="25">*</br>
+					<p class="vit">Meddelande:</p></br>
+					<textarea rows="12" cols="63" id="inmatning"></textarea></p></br>
+					<input type="submit" id="submit" value="Skicka" enctype="text/plain">
+					</form>
 				
 				</div>
 				
